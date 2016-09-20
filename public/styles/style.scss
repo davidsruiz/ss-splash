@@ -1,4 +1,6 @@
 
+$max-width: 512px;
+
 body {
   margin: 0px;
 }
@@ -22,4 +24,6 @@ html, body, .screen {
 #logo img {
   width: 50%;
   max-width: 1024px;
+
+  @media screen and (max-width: $max-width) { width: 80%; }
 }
